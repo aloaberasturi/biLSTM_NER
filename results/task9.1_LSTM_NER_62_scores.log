@@ -1,0 +1,52 @@
+SCORES FOR THE GROUP: LSTM_NER RUN=62
+
+Strict matching (boundaries + type)
+cor	inc	par	mis	spu	total	prec	recall	F1
+1200	746	0	-175	122	1771	0.58	0.68	0.63
+
+
+
+Exact matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+1256	690	0	-175	122	1771	0.61	0.71	0.65
+
+
+
+Partial matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+1256	0	690	-175	122	1771	0.61	0.9	0.73
+
+
+
+type matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+1842	104	0	-175	122	1771	0.89	1.04	0.96
+
+
+
+SCORES FOR ENTITY TYPE
+Exact matching on drug
+cor	inc	par	mis	spu	total	prec	recall	F1
+837	132	0	76	53	1045	0.82	0.8	0.81
+
+
+Exact matching on brand
+cor	inc	par	mis	spu	total	prec	recall	F1
+140	4	0	36	5	180	0.94	0.78	0.85
+
+
+Exact matching on group
+cor	inc	par	mis	spu	total	prec	recall	F1
+191	484	0	-221	46	454	0.26	0.42	0.33
+
+
+Exact matching on drug_n
+cor	inc	par	mis	spu	total	prec	recall	F1
+32	22	0	38	30	92	0.38	0.35	0.36
+
+
+MACRO-AVERAGE MEASURES:
+P	R	F1
+0.6	0.59	0.59
+________________________________________________________________________
+

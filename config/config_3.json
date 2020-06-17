@@ -1,0 +1,20 @@
+{ "arch": {
+    "w_embedding": 300,
+    "c_embedding":50,
+    "lstm_char_units": 50,
+    "lstm_main_units": 150,
+    "dense_units": 50,
+    "return_sequences": true,
+    "mask_zero": true,
+    "activation": "relu"
+  },
+
+  "training": {
+    "batch": 32,
+    "dropout": 0.5,
+    "epochs": 10,
+    "optimizer": "adam",
+    "loss": "loss_function",
+    "metrics":"accuracy"
+  }
+}

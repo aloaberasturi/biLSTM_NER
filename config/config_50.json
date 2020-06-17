@@ -1,0 +1,22 @@
+{ "arch": {
+    "pre_trained": true,
+    "w_embedding": 300,
+    "c_embedding": 25,
+    "lstm_char_units": 10,
+    "lstm_main_units": 50,
+    "dense_units": 10,
+    "return_sequences": true,
+    "mask_zero": true,
+    "activation": "relu"
+  },
+
+  "training": {
+    "batch": 32,
+    "dropout": 0.2,
+    "rcrr_dropout": 0.5,
+    "epochs": 20,
+    "optimizer": "adam",
+    "loss": "crf_loss",
+    "metrics":"crf_marginal_accuracy"
+  }
+}
